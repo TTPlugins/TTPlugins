@@ -1,0 +1,37 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indicators", "Indicators\Indicators.csproj", "{45E097FC-297F-40FA-93BF-84B36D95269A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objects", "Objects\Objects.csproj", "{395CE1A5-712F-49B2-8350-5BD6DF956999}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Common", "Common\Common.shproj", "{DF86B0D9-6346-4572-99C0-14C00AFA0E0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45E097FC-297F-40FA-93BF-84B36D95269A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E097FC-297F-40FA-93BF-84B36D95269A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E097FC-297F-40FA-93BF-84B36D95269A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E097FC-297F-40FA-93BF-84B36D95269A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395CE1A5-712F-49B2-8350-5BD6DF956999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395CE1A5-712F-49B2-8350-5BD6DF956999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395CE1A5-712F-49B2-8350-5BD6DF956999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395CE1A5-712F-49B2-8350-5BD6DF956999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7BE3E48-36A3-41C0-BBFB-C4608CA287D9}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Common\Common.projitems*{395ce1a5-712f-49b2-8350-5bd6df956999}*SharedItemsImports = 4
+		Common\Common.projitems*{45e097fc-297f-40fa-93bf-84b36d95269a}*SharedItemsImports = 4
+		Common\Common.projitems*{df86b0d9-6346-4572-99c0-14c00afa0e0a}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
